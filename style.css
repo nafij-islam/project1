@@ -8,6 +8,9 @@
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 /* [[[[[[[[[[[[[[[[[[common css]]]]]]]]]]]]]]]]] */
@@ -85,3 +88,78 @@ nav .box .btn a{
 
 
 /* [[[[[[[[[[[[[[[[[[Navber  End]]]]]]]]]]]]]]]]] */
+
+
+
+/* [[[[[[[[[[[[[[[[[[Banner part start]]]]]]]]]]]]]]]]] */
+
+.banner{
+    background-color: #FAE3B6;
+    padding-top: 124px;
+    padding-bottom: 100px;
+}
+
+
+.banner .box .left h1{
+    font-size: 64px;
+    color: black;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 546px;
+
+
+}
+
+.banner .box .left p{
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 534px;
+    padding: 38px 0px 76px 0px;
+
+}
+
+
+.banner .box .left a{
+    display:inline;
+    padding: 25px 91px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.banner .box{
+    display: flex;
+}
+
+
+.banner .box .left{
+    width: 50%;
+    
+    
+}
+
+
+.banner .box .right{
+    width: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[Banner part End]]]]]]]]]]]]]]]] */
