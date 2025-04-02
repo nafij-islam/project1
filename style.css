@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+
+/* [[[[[[[[[[[[[[[[[[common css]]]]]]]]]]]]]]]]] */
+
+
+
+/* [[[[[[[[[[[[[[[[[[Navber start]]]]]]]]]]]]]]]]] */
+
+nav{
+    background-color: #FAE3B6;
+    padding: 47px 0px;
+}
+
+nav .box {
+    display: flex;
+    align-items: center;
+}
+
+nav .box .logo{
+    width: 20%;
+}
+
+
+nav .box .menu{
+    width: 60%;
+}
+
+
+
+
+
+nav .box ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 59px;
+}
+
+nav .box ul{
+    justify-content: center;
+}
+
+
+nav .box ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+
+}
+
+
+nav .box .btn{
+    width: 20%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: right;
+}
+
+nav .box .btn a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-color: #FDBB57;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[Navber  End]]]]]]]]]]]]]]]]] */
