@@ -70,6 +70,10 @@ nav .box .btn{
     justify-content: right;
 }
 
+
+
+
+
 nav .box .btn a{
     text-decoration: none;
     padding: 10px 15px;
@@ -79,7 +83,14 @@ nav .box .btn a{
     color: black;
     background-color: #FDBB57;
     border-radius: 10px;
+    transition: 0.5s;
+    border: 2px solid transparent;
 
+}
+
+nav .box .btn a:hover{
+    background-color: transparent;
+    border: 2px solid white;
 }
 
 
@@ -130,8 +141,22 @@ nav .box .btn a{
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 0.5s;
 
 }
+
+
+.banner .box .left a:hover{
+    border: 2px solid white;
+    background-color: #FDBB57;
+    
+}
+
+
+
+
+
 
 
 
@@ -153,13 +178,70 @@ nav .box .btn a{
     width: 50%;
 
 }
-
-
-
-
-
-
-
-
-
 /* [[[[[[[[[[[[[[[[[[Banner part End]]]]]]]]]]]]]]]] */
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[Section 1 part start]]]]]]]]]]]]]]]] */
+.collection{
+    padding-top: 217px;
+    padding-bottom: 100px;
+}
+
+
+
+.collection h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+}
+
+.collection .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection .box .card{
+    width: 355px;
+    height: 400px;
+    margin-top: 70px;
+    position: relative;
+    overflow: hidden;
+      
+}
+
+
+
+.collection .box .card .overly{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.collection .box .card .overly a{
+    background-color: white;
+    padding: 10px 100px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    margin-top: 200px;
+}
+
+.collection .box .card:hover .overly{
+    top: 0;
+}
+
+
+
+/* [[[[[[[[[[[[[[[[[[Section 1 part end]]]]]]]]]]]]]]]] */
