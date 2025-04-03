@@ -59,7 +59,25 @@ nav .box ul li a{
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     color: black;
+    position: relative;
 
+}
+
+
+nav .box ul li a::after{
+    content: "";
+    left: 0;
+    bottom: -3px;
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #f49200;
+    transition: 0.5s;
+}
+
+
+nav .box ul li a:hover::after{
+    width: 100%;
 }
 
 
@@ -236,6 +254,7 @@ nav .box .btn a:hover{
     font-weight: 700;
     font-family: "Frank Ruhl Libre", serif;
     margin-top: 200px;
+    color: black;
 }
 
 .collection .box .card:hover .overly{
@@ -245,3 +264,54 @@ nav .box .btn a:hover{
 
 
 /* [[[[[[[[[[[[[[[[[[Section 1 part end]]]]]]]]]]]]]]]] */
+
+
+
+/* [[[[[[[[[[[[[[[[[[best fashion part start]]]]]]]]]]]]]]]] */
+
+
+.bestfashion .box{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.bestfashion .box .left{
+    width: 50%;
+}
+
+
+.bestfashion .box .left img{
+    width: 100%;
+}
+
+.bestfashion .box .right{
+    width: 50%;
+}
+
+
+
+.bestfashion .box .right h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 520px;
+    padding-bottom: 63px;
+    
+}
+
+
+.bestfashion .box .right p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 450px;
+
+}
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[best fashion part end]]]]]]]]]]]]]]]]]]] */
