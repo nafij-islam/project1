@@ -273,12 +273,56 @@ nav .box .btn a:hover{
 .bestfashion .box{
     display: flex;
     align-items: center;
+    position: relative;
     
 }
 
 
 .bestfashion .box .left{
     width: 50%;
+    
+}
+
+
+.bestfashion  .review{
+    width: 793px;
+    padding: 66px 0px;
+    background-color:#FAE3B6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around ;
+    position: absolute;
+    bottom: -180px;
+    right: 0;
+    z-index: -1;
+
+}
+
+.bestfashion  .review .review1:last-child{
+    border: 0px;
+
+}
+
+
+
+.bestfashion  .review h4{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+
+.bestfashion  .review p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+.bestfashion  .review .review1{
+    border-right: 2px solid black;
+    padding-right: 27px;
+    
+    
 }
 
 
@@ -288,6 +332,7 @@ nav .box .btn a:hover{
 
 .bestfashion .box .right{
     width: 50%;
+    margin-left: 100px;
 }
 
 
@@ -299,6 +344,7 @@ nav .box .btn a:hover{
     width: 520px;
     padding-bottom: 63px;
     
+    
 }
 
 
@@ -307,6 +353,7 @@ nav .box .btn a:hover{
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     width: 450px;
+    
 
 }
 
