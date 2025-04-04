@@ -362,3 +362,49 @@ nav .box .btn a:hover{
 
 
 /* [[[[[[[[[[[[[[[[[[best fashion part end]]]]]]]]]]]]]]]]]]] */
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[best product part start]]]]]]]]]]]]]]]]]]] */
+
+.bestproduct{
+    margin-top: 250px;
+    background-color: #CFA485;
+    padding-top: 36px;
+    padding-bottom: 191px;
+}
+
+.bestproduct .left{
+    width: 50%;
+}
+
+
+.bestproduct .left h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 437px;
+}
+
+.bestproduct .left p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 414px;
+
+}
+
+
+
+
+
+.bestproduct .right{
+    width: 50%;
+}
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[best product part end]]]]]]]]]]]]]]]]]]] */
